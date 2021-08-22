@@ -2,3 +2,4 @@
 CMDS.md
 *.pyc
 /*.egg*/
+.ipynb_checkpoints
