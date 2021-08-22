@@ -1,0 +1,4 @@
+/dist/
+CMDS.md
+*.pyc
+/*.egg*/
