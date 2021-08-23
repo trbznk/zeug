@@ -2,6 +2,8 @@
 
 master of none in datascience
 
+**Attention:** Still in experimental state
+
 ### Installation
 
 ```bash
