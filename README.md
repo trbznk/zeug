@@ -12,14 +12,9 @@ Assume you have cyclical data like weekday. `0` for monday and `6` for sunday. E
 
 ```python
 weekdays = [0, 1, 2, 3, 4, 6]
-```
-
-We can use sinus and cosinus tranformation to preprocess cyclical data like `hours`, `weekdays` and `months`.
-
-```python
 weekdays_sin, weekdays_cos = zeug.sin_cos_transformation(weekdays, period=7)
 ```
 
-The result consists of the sinus and cosinus values that hold the information about the cyclical behavior.
+We can use sinus and cosinus tranformation to preprocess cyclical data like `hours`, `weekdays` and `months`. The result consists of the sinus and cosinus values that hold the information about the cyclical behavior.
 
 ![sin_cos_tranformation() example](./bin/sin_cos_tranformation.png)
