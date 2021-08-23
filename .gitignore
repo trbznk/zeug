@@ -2,4 +2,4 @@
 *.pyc
 /*.egg*/
 .ipynb_checkpoints
-ship.sh
+CMDS.md
